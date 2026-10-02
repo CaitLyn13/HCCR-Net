@@ -1,0 +1,9 @@
+{
+  "runs": 400,
+  "mean_rmse_delta": 0.033239249485922655,
+  "q025_rmse_delta": -0.4387133976131377,
+  "q975_rmse_delta": 0.5778179613954313,
+  "worst_rmse_delta": 1.0965855817478598,
+  "minimum_advantage_vs_raw_no_condition": 2.2021098716084744,
+  "all_stress_surfaces_better_than_raw_no_condition": true
+}

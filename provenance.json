@@ -1,0 +1,44 @@
+{
+  "origin": "results/current/condition_processing_controls_v2/code_snapshot",
+  "source_sha256": {
+    "__init__.py": "c7da5928756635775a7f8214599885bf9a3b2ee89f150ebd3442e95504216a78",
+    "data.py": "131ae99ab6eae62da0ec34a6f0cb79f9f1a6dd2e2a6af8d4a8d8ff7878868bc2",
+    "metrics.py": "00ba915fca50098231d586d8e2fbf7cd9e94a7d50df239b161a6a02509cb249e",
+    "paths.py": "3a23b71a116473a1cdf74d63de95baa2b02acfa7b882adb45606f5e3521f27b6",
+    "protocol_v1_config.py": "c28daaa22c4acd9c4777607c97c1a7f70a39612c67a2c0354380cd377874334a",
+    "protocol_v1_data.py": "a9a98aff3f0983fe83dbbd6ee95409916a7b7538ca45f71a1d7f747f47def800",
+    "protocol_v1_models.py": "b967f8c1fbccb1920f5b1993fe2f65bdf62bf49d6bcf7d93968f7e65133ce85c",
+    "protocol_v1_train.py": "99e04b8d074d76f0f5a31b9291450dbb993c160dc5edc2eb10467939a24a9656",
+    "run_p3_mechanism_ablation.py": "042aa052d6bd8ed1c6ff9baab6f813e84ef0478cf16e10741e9ba5752bde400a",
+    "run_source_only_baselines.py": "334891d8c64b87d7134c11330c1845ca3caaac295b9b908bc188d116976cbdc3",
+    "ms_dsn_baseline.py": "297da83a407e6c8e6764ab8ec43ffd1e17a6d6cb44e68ef7f81e4d8f01c5a9c9",
+    "mdmt_baseline.py": "51740d7bd848afb4d9588ab1d0d83ba68392760a6743e306b369e43cefe4306e",
+    "run_mdmt_unified.py": "fc342681bb01477dcdb449eedba0c4e7ffa73bca2b57db0f3c8c365d331b423c",
+    "condition_processing_controls.py": "9e28a219c54d84335b82a670d6bc6a98b443b3ae71c7dfec490c109852cf4d12",
+    "run_condition_processing_controls.py": "71a5cc9e0c2808716de402d1184522a974c0ca08a565d88302ba7ac2cf70f312"
+  },
+  "raw_sha256": {
+    "train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "train_FD002.txt": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f",
+    "train_FD003.txt": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+    "train_FD004.txt": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218",
+    "test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+    "test_FD002.txt": "de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02",
+    "test_FD003.txt": "299babd63c8d987cef079c4a425429f33b3a34797d803bbe2ad48c29dbd0d790",
+    "test_FD004.txt": "1dc675fff0624bac10786927c6715b37d1297657137400d2b1a3138d777a3ba5",
+    "RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+    "RUL_FD002.txt": "c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b",
+    "RUL_FD003.txt": "df1e0566306b174a2de41c67a3e7a51877889598b78643fc3e5685259091b7cb",
+    "RUL_FD004.txt": "196b836b85a95ac7fdbbf29c5fdf1657382eafa445644d114ffaaf50dc2975e1"
+  },
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.12.0.dev20260408+cu128",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "deterministic_algorithms": true,
+    "threads": 1
+  }
+}

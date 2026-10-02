@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hccr-net-reproduction"
+version = "1.0.0"
+description = "Source-only C-MAPSS experiments accompanying the HCCR-Net manuscript"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2.2,<3",
+  "pandas>=2.3,<3",
+  "torch>=2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
